@@ -34,7 +34,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "pytoon=toon.cli:main",
+            "tokon=toon.cli:main",
         ],
     },
     include_package_data=True,

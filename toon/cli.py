@@ -12,16 +12,16 @@ def main():
         epilog="""
 Examples:
   # Encode JSON to TOON
-  echo '{"name": "Alice", "age": 30}' | pytoon encode
+  echo '{"name": "Alice", "age": 30}' | tokon encode
   
   # Decode TOON to JSON
-  echo 'name: Alice\\nage: 30' | pytoon decode
+  echo 'name: Alice\\nage: 30' | tokon decode
   
   # Encode with tab delimiter
-  echo '{"items": [{"id": 1}]}' | pytoon encode --delimiter tab
+  echo '{"items": [{"id": 1}]}' | tokon encode --delimiter tab
   
   # Decode from file
-  pytoon decode < data.toon
+  tokon decode < data.toon
         """
     )
     
