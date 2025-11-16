@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="pytoon",
+    name="tokon",
     version="0.1.0",
     author="TOON Format Contributors",
     description="Official Python implementation of the TOON serialization format",
